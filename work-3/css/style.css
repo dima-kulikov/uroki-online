@@ -3,7 +3,19 @@
     margin: 0;
     padding:0;
     font-family: 'Playfair Display', serif;
+    box-sizing: inherit;
   }
+
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    display: block;
+  }
+
   .container{
     width: 900px;
     margin: 0 auto;
@@ -93,18 +105,7 @@
     height: 11px;
     z-index: 59;
   }
-  .More_than_just_a_music_festival_ {
-    font-size: 30px;
-    font-family: "PlayfairDisplay";
-    color: rgb(98, 98, 98);
-    line-height: 1.2;
-    position: absolute;
-    left: 148.844px;
-    top: 538.828px;
-    width: 407px;
-    height: 30px;
-    z-index: 58;
-  }
+  
   
  
   
