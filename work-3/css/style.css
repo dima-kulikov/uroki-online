@@ -67,10 +67,26 @@
   .foto{
     width: 420px;
     height:280px;
-    background-image: url(https://raw.githubusercontent.com/dima-kulikov/uroki-online/master/work-3/img/image-1.jpg);
+    ;
 }
 .namber{
+  background-image: url(https://raw.githubusercontent.com/dima-kulikov/uroki-online/master/work-3/img/image-1.jpg)
+}
+
+.namber2{
   background-image: url(https://raw.githubusercontent.com/dima-kulikov/uroki-online/master/work-3/img/image-2.jpg);
+}
+.namber3{
+  background-image: url(https://raw.githubusercontent.com/dima-kulikov/uroki-online/master/work-3/img/image-3.jpg)
+}
+.namber4{
+  background-image: url(https://raw.githubusercontent.com/dima-kulikov/uroki-online/master/work-3/img/image-4.jpg)
+}
+.namber5{
+  background-image: url(https://raw.githubusercontent.com/dima-kulikov/uroki-online/master/work-3/img/image-5.jpg)
+}
+.namber6{
+  background-image: url(https://raw.githubusercontent.com/dima-kulikov/uroki-online/master/work-3/img/image-6.jpg)
 }
 
 .ubuntu{
@@ -97,4 +113,7 @@
     cursor: pointer;
   }
 
-  
+  button:hover{
+    background-color: #03a9f4;
+    color: white;
+  }
