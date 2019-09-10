@@ -12,9 +12,6 @@
     padding: 0;
   }
 
-  a {
-    display: block;
-  }
 
   .container{
     width: 900px;
@@ -26,15 +23,19 @@
     text-decoration: none;
    font-size: 14px;
   
+    
   }
   li a{
     color: black;
     text-decoration: none;
+    width: 120px;
+  
     }
   
   .nav-menu{
     margin:80px 0px 100px 0px;
     text-align: center;
+    padding:0px;
   }
   
   .menu-width1{
@@ -48,64 +49,35 @@
     color: #03a9f4;
   }
   
-  .flex-block {
-    display: flex;
-    justify-content: center;
-  }
+
   .block-news{
+    display: inline-block;
     width: 420px;
+    backgraund-color:#e6edee;
+    
   }
-  
-  
-  
-  .left_post {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 1200px;
-    height: 2079px;
-    z-index: 64;
-  }
-  .image {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 1200px;
-    height: 2079px;
-    z-index: 63;
-  }
-  .image {
-    background-image: url("image.png");
-    position: absolute;
-    left: 126px;
-    top: 175px;
-    width: 474px;
-    height: 316px;
-    z-index: 62;
-  }
-  .Rettangolo_4 {
-    background-color: rgb(242, 242, 242);
-    position: absolute;
-    left: 150px;
-    top: 191px;
+
+  .foto{
     width: 420px;
-    height: 280px;
-    z-index: 61;
-  }
-  .Lifestyle {
+    height:280px;
+    background-image: url(https://raw.githubusercontent.com/dima-kulikov/uroki-online/master/work-3/img/image-1.jpg);
+}
+.namber{
+  background-image: url(https://raw.githubusercontent.com/dima-kulikov/uroki-online/master/work-3/img/image-2.jpg);
+}
+
+.ubuntu{
+    font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
-    font-family: "Myriad Pro";
-    color: rgb(180, 173, 158);
-    text-transform: uppercase;
-    line-height: 1.2;
-    position: absolute;
-    left: 149.937px;
-    top: 500.25px;
-    width: 58px;
-    height: 11px;
-    z-index: 59;
+    color: #b4ad9e;
+    padding:20px 0px;
   }
-  
-  
  
+  h2{
+    color: rgb(98, 98, 98);
+    font-size: 30px;
+    margin-bottom: 45px;
+  }
+
+  
   
