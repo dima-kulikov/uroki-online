@@ -95,20 +95,5 @@
     width:165px;
     height: 60px;
   }
-  a{
-    width:165px;
-    height: 60px;
-    text-decoration: none;
-    color:rgb(98, 98, 98);
-  }
-  
-  :hover{
-    button{
-background-color:#03a9f4;
-color:white;
 
-  }
-  a:hover{
-    color:white;
-  }
-}
+  
