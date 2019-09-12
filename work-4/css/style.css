@@ -9,7 +9,9 @@
       box-sizing: border-box; 
    }
    .page-header{
-   width: 1110px;
+    display: block;
+   width: 1110 px;
+   height: 200px;
    margin: 0 auto;
    background-color: aqua
    }
