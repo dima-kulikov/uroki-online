@@ -1,17 +1,65 @@
 *{
-     outline: 1px solid #03a9f4;
+     outline: 1px solid #2ee65c;
      margin: 0;
      padding:0;
-     font-family: 'Playfair Display', serif;
+   
      box-sizing: inherit;
    }
    html{
       box-sizing: border-box; 
    }
    .page-header{
-    display: block;
-   width: 1110 px;
-   height: 200px;
-   margin: 0 auto;
-   background-color: aqua
+   width: 1110px;
+   margin: 120px auto;
+  
    }
+   .nav-menu{
+   float: right; 
+   padding-top:10px;  
+   }
+   .nav-menu a{
+      color: black;
+     
+      text-decoration: none;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+   }
+   .nav-menu a:hover{
+      color: rgb(26, 188, 156);
+   }
+   .logo{
+      float: left;
+      font-size: 30px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: lighter;
+      color:#555252;
+   }
+   .logo::first-letter{
+      color: rgb(26, 188, 156);
+      font-weight: 800;
+     
+   }
+
+   
+
+   .nav-menu li{
+      float: left;
+      list-style-type: none;
+      padding-left: 35px;
+      font-size: 14px;
+   }
+   .clearfix {
+      content: "";
+      display: table;
+      clear: both;}
+ 
+      .Home__________About_Us___________page_________s {
+         font-size: 14px;
+         font-family: "OpenSans";
+        
+         font-weight: bold;
+
+         color: rgb(26, 188, 156);
+       
+       }
+       
