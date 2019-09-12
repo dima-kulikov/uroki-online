@@ -1,0 +1,15 @@
+*{
+     outline: 1px solid #03a9f4;
+     margin: 0;
+     padding:0;
+     font-family: 'Playfair Display', serif;
+     box-sizing: inherit;
+   }
+   html{
+      box-sizing: border-box; 
+   }
+   .page-header{
+   width: 1110px;
+   margin: 0 auto;
+   background-color: aqua
+   }
