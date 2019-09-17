@@ -221,3 +221,32 @@ background-color: #e9f0fd;
       .list-news:last-child{
          margin-right: 0px;
       }
+
+      .name-border{
+         font-size: 18px;
+         color: #555252;
+      }
+
+      .name-border::after{
+         content: '';
+         display: block;
+         border-bottom: 3px solid rgb(26, 188, 156);
+         width: 164px;
+         margin: 15px 0px;
+         
+      }
+
+
+      .Lorem_Ipsum__Proin_gravida_nibh_vel_velit_aucto {
+         font-size: 18px;
+         font-family: "OpenSans";
+         color: rgb(85, 82, 82);
+         line-height: 1.444;
+         position: absolute;
+         left: 260.844px;
+         top: 1560.89px;
+         width: 301px;
+         height: 44px;
+         z-index: 31;
+       }
+       
