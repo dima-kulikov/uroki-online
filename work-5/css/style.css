@@ -5,6 +5,9 @@
    
      box-sizing: inherit;
    }
+   body{
+      /* background-color: #e9f0fd; */
+   }
    html{
       box-sizing: border-box; 
       font-family: 'Roboto', sans-serif;
@@ -13,6 +16,7 @@
    max-width: 1110px;
    width: 100%;
    margin: 27px auto 30px auto;
+   
   
    }
    .nav-menu{
@@ -58,16 +62,21 @@
 
        
        .page-sizes{
-         max-width: 1110px;
-         margin: 0px auto;
-         
+         width: 100%;
+        
+         background-color: #e9f0fd;
+
        }
 
    .block-name{
+      margin-top: 100px;
       text-align: center;
-      font-size: 48px;
       font-weight: bold;
       background-color: #e9f0fd;
+      font-size: 48px;
+      font-family: "Roboto";
+      color: rgb(81, 81, 81);
+      line-height: 0.667;
      
    }
    .block-name::after{
@@ -76,15 +85,31 @@
       border-bottom: 7px solid rgb(26, 188, 156);
       width: 164px;
       margin: 30px auto 90px;
+   
+     
       
    }
 
-.product{
-   background-color: #e9f0fd;
-   list-style:none;
-   margin: 0;
-   padding: 0;
+   .NEW_COLLECTION {
+      font-size: 48px;
+      font-family: "Roboto";
+      color: rgb(81, 81, 81);
+      text-transform: uppercase;
+      line-height: 0.667;
+      text-align: center;
+      
+    }
+    
 
+.product{
+   /* width: 100%; */
+   list-style:none;
+  
+   padding: 0;
+   margin: 80px auto 0px auto;
+   
+   
+   
 }
 .product li{
 float:left;
@@ -119,6 +144,10 @@ background-color: #e9f0fd;
    0 0 40px rgba(0, 0, 0, .1) inset;
   
 
+}
+
+.list-product:hover .overlay{
+   opacity: 1;
 }
 .list-product:hover .price{
    background-color: #7fd9c7;
@@ -186,6 +215,7 @@ background-color: #e9f0fd;
       height: 261px;
      top:10px;
      left:10px;
+     opacity: 0;
     }
     .overlay-icon{
       position: absolute;
@@ -210,16 +240,23 @@ background-color:#1abc9c;
 
    }
     .img-love{
-      
+      background-image: url(../img/icon/1.png);
+      background-repeat: no-repeat;
+      background-position: center;
     }
     .img-arrows{
-      
+      background-image: url(../img/icon/2.png);
+      background-repeat: no-repeat;
+      background-position: center;
    }
    .img-clock{
-     
+      background-image: url(../img/icon/3.png);
+      background-repeat: no-repeat;
+      background-position: center;
    }
     .overlay-icon{
        display: inline-block;
+     
     }
 
 .overlay-button{
@@ -268,3 +305,13 @@ background-color:#1abc9c;
    background-image: url(../img/product/product8.png);*/
 }
 
+
+.overlay-button img{
+   float: left;
+}
+.overlay-button span{
+margin-left: 10px;
+}
+.overlay-button .text {
+   vertical-align: middle;
+}
