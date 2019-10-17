@@ -206,7 +206,7 @@ background-color: #e9f0fd;
       height: 261px;
      top:10px;
      left:10px;
-     /* opacity: 0; */
+     opacity: 0;
     }
     .overlay-icon{
       position: absolute;
@@ -269,9 +269,8 @@ background-color:#1abc9c;
 }
 
 .text{
-   padding-top:20px;
-   margin-top: 40px;
-   top:40px;
+   padding-top:10px;
+  
 }
 
 .price{
