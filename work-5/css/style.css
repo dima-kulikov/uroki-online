@@ -90,16 +90,7 @@
       
    }
 
-   .NEW_COLLECTION {
-      font-size: 48px;
-      font-family: "Roboto";
-      color: rgb(81, 81, 81);
-      text-transform: uppercase;
-      line-height: 0.667;
-      text-align: center;
-      
-    }
-    
+
 
 .product{
    /* width: 100%; */
@@ -215,7 +206,7 @@ background-color: #e9f0fd;
       height: 261px;
      top:10px;
      left:10px;
-     opacity: 0;
+     /* opacity: 0; */
     }
     .overlay-icon{
       position: absolute;
@@ -273,6 +264,16 @@ background-color:#1abc9c;
    background-color:#323232;
    color:white;
 }
+.overlay-button-img{
+   padding-left: 10px;
+}
+
+.text{
+   padding-top:20px;
+   margin-top: 40px;
+   top:40px;
+}
+
 .price{
    float: left;
    width: 55px;
