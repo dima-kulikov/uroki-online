@@ -206,7 +206,7 @@ background-color: #e9f0fd;
       height: 261px;
      top:10px;
      left:10px;
-     opacity: 0;
+     /* opacity: 0; */
     }
     .overlay-icon{
       position: absolute;
@@ -266,6 +266,9 @@ background-color:#1abc9c;
 }
 .overlay-button-img{
    padding-left: 10px;
+   background-image: url(../img/icon/3.png);
+   background-repeat: no-repeat;
+   background-position: center;
 }
 
 .text{
@@ -300,11 +303,53 @@ background-color:#1abc9c;
 /*СЛАЙДЕР КОД*/
 .slider{
    height:600px;
+   width: 100%;
    background-image: url(../img/product/slide44.jpg);
-/*
-   background-image: url(../img/product/product8.png);*/
+   background-size:cover;
+   background-repeat: no-repeat;
+}
+.info-slider{
+   max-width:1110px;
+   margin: 0px auto ;
+   border:2px solid red;
+}
+.slider-text{
+   margin-top: 100px;
+   text-align: center;
+   font-weight: bold;
+  
+   font-size: 48px;
+   font-family: "Roboto";
+   color: white;
+   line-height: 0.667;
 }
 
+
+.slider-ctrl{
+   width: 100px;
+   height: 100px;
+   background-color: rgb(78, 198, 171);
+   opacity: 0.651;
+}
+
+ 
+.slider-pagination-item{
+   display: inline-block;
+   
+   width:85px;
+   height: 5px;
+   margin: 0px auto ;
+}
+
+
+.slider-pagination-item{
+   background-color: tomato;
+}
+.slider-pagination-active{
+   background-color: rgb(26, 188, 156);
+}
+
+/* не помню куда это и что */
 
 .overlay-button img{
    float: left;
