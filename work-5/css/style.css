@@ -302,22 +302,27 @@ background-color:#1abc9c;
 }
 /*СЛАЙДЕР КОД*/
 .slider{
+   display: block;
    height:600px;
    width: 100%;
    background-image: url(../img/product/slide44.jpg);
    background-size:cover;
    background-repeat: no-repeat;
+   border:2px solid green;
 }
 .info-slider{
+   position: absolute;
+   display: block;
    max-width:1110px;
-   margin: 0px auto ;
+   margin: 215px auto ;
    border:2px solid red;
 }
 .slider-text{
+  
    margin-top: 100px;
    text-align: center;
    font-weight: bold;
-  
+   text-align: center;
    font-size: 48px;
    font-family: "Roboto";
    color: white;
@@ -326,13 +331,21 @@ background-color:#1abc9c;
 
 
 .slider-ctrl{
+   
    width: 100px;
    height: 100px;
    background-color: rgb(78, 198, 171);
    opacity: 0.651;
+   top: 50%;
 }
+.slider-ctrl-left{
+   left:0;
+}
+.slider-ctrl-right{
+   right:0;
+} 
 
- 
+
 .slider-pagination-item{
    display: inline-block;
    
