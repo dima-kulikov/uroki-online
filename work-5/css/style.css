@@ -305,12 +305,13 @@ background-color:#1abc9c;
 /*СЛАЙДЕР КОД*/
 .slider{
    /* display: block; */
-   height:600px;
+  
    width: 100%;
+   height:600px;
    background-image: url(../img/product/slide44.jpg);
    background-size:cover;
    background-repeat: no-repeat;
-  
+   background-position: center;
 }
 
 .center-slider{
@@ -420,17 +421,13 @@ margin-left: 10px;
 
  @media (max-width: 1108px) { 
 
-   .list-product { 
-      margin-left: 84px;
-   }
-
+ 
 }
 
 
 @media (max-width: 750px) { 
    
-   .products{
-      margin-right: 60px;
+ 
 
 
    } 
