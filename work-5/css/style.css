@@ -418,7 +418,7 @@ margin-left: 10px;
    vertical-align: middle;
 }
 
-/* @media (max-width: 1108px) { 
+ @media (max-width: 1108px) { 
 
    .list-product { 
       margin-left: 84px;
@@ -433,7 +433,7 @@ margin-left: 10px;
       margin-right: 60px;
 
 
-   } */
+   } 
 .slider-ctrl{
    display:none;
 }
