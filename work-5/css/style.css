@@ -23,6 +23,29 @@
    float: right; 
    padding-top:10px;  
    }
+/* Меню для мобилки */
+   .nav-menu-mob{
+      float: right; 
+      /* margin-top:5px; */
+      margin-right: 25px;
+      display: none;
+
+      }
+      .btn-menu:hover{
+      background-color: white;
+      color: #1abc9c;;
+      border: 2px solid #1abc9c;
+   }
+      .btn-menu{
+         width: 60px;
+         height: 60px;
+         background-color: #1abc9c;
+         border:none;
+         color: white;
+         cursor: pointer;
+      }
+
+
    .nav-menu a{
       color: black;
      
@@ -59,7 +82,9 @@
       display: table;
       clear: both;}
  
-
+      .page-color{
+         background-color: #e9f0fd;;
+      }
        
        .page-sizes{
          width: 100%;
@@ -150,23 +175,27 @@ background-color: #e9f0fd;
    background-image: url(../img/product/product1.png);
    background-repeat: no-repeat;
    background-position: center;
+   background-size: contain;
    
 
 }
 .pro-img2::before{
-   background-image: url(../img/product/product1.png);
+   background-image: url(../img/product/product2.png);
    background-repeat: no-repeat;
    background-position: center;
+   background-size: contain;
 }
 .pro-img3::before{
-   background-image: url(../img/product/product1.png);
+   background-image: url(../img/product/product3.png);
    background-repeat: no-repeat;
    background-position: center;
+   background-size: contain;
 }
 .pro-img4::before{
-   background-image: url(../img/product/product1.png);
+   background-image: url(../img/product/product4.png);
    background-repeat: no-repeat;
    background-position: center;
+   background-size: contain;
 }
 .pro-img5::before{
    background-image: url(../img/product/product1.png);
@@ -459,6 +488,11 @@ width: 50px;
 
 }
 @media (max-width: 768px) { 
+   .nav-menu li{
+      font-size: 16px;
+      padding-left: 25px;
+      /* padding-right:5px; */
+   }
    .slider{ 
  height: 300px;
 }
@@ -492,9 +526,18 @@ width: 50px;
       margin: 20px 20px; 
    
    }
+   .nav-menu-mob{
+      display: none;
+   }
  }
 
  @media (max-width: 590px) { 
+   .nav-menu{
+      display: none;
+   }
+   .nav-menu-mob{
+      display: table;
+   }
    .page-sizes{
       width:290px;
       margin: 0px auto;
@@ -506,6 +549,9 @@ width: 50px;
    .slider{ 
       height: 200px;
      }
+     .block-name{
+      font-size: 32px;
+   }
  }
 
 
