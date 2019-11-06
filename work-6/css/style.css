@@ -1,0 +1,26 @@
+*{
+    outline:2px solid red;
+}
+
+body{
+    
+    
+}
+.wrapper{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+header{
+    height: 50px;
+}
+main{
+    /* align-items: stretch; */
+    flex-grow:1;
+    background-color: rosybrown;
+}
+
+footer{
+    height: 50px; 
+    background-color: skyblue;
+}
