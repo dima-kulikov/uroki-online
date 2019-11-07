@@ -9,9 +9,13 @@
     flex-direction: column;
 }
 header{
+    display: flex;
+    flex-direction: row;
     width: 1200px;
-    /* height: 70px; */
-    margin:0 outo;
+    
+   
+    margin: 0px auto;
+    border: 1px solid red;
 }
 main{
     /* align-items: stretch; */
@@ -23,14 +27,45 @@ footer{
     height: 50px; 
     background-color: skyblue;
 }
+/* ХЕДЕР САЙТА */
+.logo{
+    border: 1px solid red;
+    font-size: 30px;
+        font-family: 'Montserrat Subrayada', sans-serif;
+        color: #95e1d3;
+        font-weight: bold;
+        align-self: center;
+}
+nav{
+    
+    
+    margin-left: auto;
+}
 .header-menu{
     list-style-type: none;
+    border: 1px solid gold;
+   
     
 }
 .header-menu a{
     text-decoration: none;
+    color: #95e1d3;
+    font-size: 14px;
+    font-family: 'Montserrat Subrayada', sans-serif;
 }
 .header-menu li{
     display: inline-block;
+    margin-right: 55px;
+   
+ 
 
 }
+.header-menu li:last-child{
+    margin-right: 0px;
+}
+
+
+/* ХЕДЕР САЙТА-------КОНЕЦ */
+
+   
+      
