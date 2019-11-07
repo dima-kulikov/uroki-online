@@ -11,11 +11,11 @@
 header{
     display: flex;
     flex-direction: row;
-    width: 1200px;
+    
     
    
     margin: 0px auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 main{
     /* align-items: stretch; */
@@ -28,44 +28,87 @@ footer{
     background-color: skyblue;
 }
 /* ХЕДЕР САЙТА */
-.logo{
-    border: 1px solid red;
+.conteiner{
+    display: flex;
+    flex-basis: 1200px;
+    margin: 0 auto;
+    background-color: cornsilk;
+}
+
+.page-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90px;
+    
+}
+
+.site-logo{
+    /* border: 1px solid red; */
     font-size: 30px;
-        font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Montserrat Subrayada', sans-serif;
         color: #95e1d3;
         font-weight: bold;
-        align-self: center;
+        text-decoration: none;
+
 }
-nav{
-    
-    
-    margin-left: auto;
-}
+
 .header-menu{
+    display: flex;
     list-style-type: none;
-    border: 1px solid gold;
-   
-    
+    /* border: 1px solid gold; */
+    /* align-self: center; */
+    margin: 0;
+    padding: 0;  
 }
+
+.header-menu{
+   flex-basis: 490px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
 .header-menu a{
     text-decoration: none;
     color: #95e1d3;
     font-size: 14px;
     font-family: 'Montserrat Subrayada', sans-serif;
+    font-weight: bold;
 }
-.header-menu li{
-    display: inline-block;
-    margin-right: 55px;
-   
- 
 
-}
-.header-menu li:last-child{
-    margin-right: 0px;
+.header-menu a:hover{
+    color:red;
 }
 
 
-/* ХЕДЕР САЙТА-------КОНЕЦ */
+/* ХЕДЕР САЙТА------------------------КОНЕЦ */
 
-   
-      
+   /* БЛОК ТЕКСТА СЕРЕДИНА */
+.section-conteiner{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 100px;
+    background-color: violet;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+
+}
+
+.first-text{
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    color:#333333;
+
+}
+
+.second-text{
+    font-size: 30px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color:#333333;
+    text-transform: uppercase;
+
+}
+  
