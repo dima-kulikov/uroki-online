@@ -1,0 +1,36 @@
+/* *{
+    outline:2px solid red;
+} */
+
+
+.wrapper{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+header{
+    width: 1200px;
+    /* height: 70px; */
+    margin:0 outo;
+}
+main{
+    /* align-items: stretch; */
+    flex-grow:1;
+    background-color: rosybrown;
+}
+
+footer{
+    height: 50px; 
+    background-color: skyblue;
+}
+.header-menu{
+    list-style-type: none;
+    
+}
+.header-menu a{
+    text-decoration: none;
+}
+.header-menu li{
+    display: inline-block;
+
+}
