@@ -19,14 +19,20 @@ header{
 }
 main{
     /* align-items: stretch; */
-    flex-grow:1;
-    background-color: rosybrown;
+    /* flex-grow:1; */
+    /* background-color: ivory; */
 }
 
 footer{
     height: 50px; 
     background-color: skyblue;
 }
+
+
+
+
+
+
 /* ХЕДЕР САЙТА */
 .conteiner{
     display: flex;
@@ -60,14 +66,11 @@ footer{
     /* align-self: center; */
     margin: 0;
     padding: 0;  
-}
-
-.header-menu{
-   flex-basis: 490px;
+    flex-basis: 490px;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
+
 
 .header-menu a{
     text-decoration: none;
@@ -78,8 +81,16 @@ footer{
 }
 
 .header-menu a:hover{
-    color:red;
+    color:#f38181;
+    border-bottom: 3px solid #f38181;
+    width: 164px;
+    margin: 30px auto 90px;
+    padding-bottom: 12px;
 }
+
+
+
+
 
 
 /* ХЕДЕР САЙТА------------------------КОНЕЦ */
@@ -88,8 +99,8 @@ footer{
 .section-conteiner{
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 100px;
+    width: 750px;
+    /* height: 100px; */
     background-color: violet;
     justify-content: center;
     align-items: center;
@@ -109,6 +120,54 @@ footer{
     font-family: 'Montserrat Subrayada', sans-serif;
     color:#333333;
     text-transform: uppercase;
-
 }
   
+.second-text::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #f38181;
+    width: 60px;
+    margin: 30px auto 0px;
+ }
+
+
+
+
+
+
+ 
+ /* СЕКЦИЯ С КАРТОЧКАМИ НА ФЛЕКСЕ */
+ /* .section-conteiner{
+    display: flex;
+    flex-basis: 1200px;
+    border: 10px solid gold;
+ } */
+ 
+ 
+ .section-cards-servise{
+    display: flex;
+    flex-basis: 1200px;
+    margin: 0 auto;
+    background-color: cornsilk;
+    border: 1px solid gold;
+    /* align-content: flex-start; */
+   
+   
+ }
+
+ .servis-cards-ul{
+     display: flex;
+     flex-wrap: wrap;
+    list-style-type: none;
+   /* align-content: flex-start; */
+   justify-content: space-between;
+   margin: 0;
+   padding: 0;
+  
+ }
+
+ .card-servise{
+
+    width: 325px;
+    border:1px solid red;
+ }
