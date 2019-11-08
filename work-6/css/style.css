@@ -149,7 +149,7 @@ footer{
     flex-basis: 1200px;
     margin: 0 auto;
     background-color: cornsilk;
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
     /* align-content: flex-start; */
    
    
@@ -158,16 +158,40 @@ footer{
  .servis-cards-ul{
      display: flex;
      flex-wrap: wrap;
+     flex-basis: 1200px;
     list-style-type: none;
    /* align-content: flex-start; */
    justify-content: space-between;
-   margin: 0;
-   padding: 0;
+   margin: 0 auto;
+   
   
  }
 
  .card-servise{
-
-    width: 325px;
+   
+    width: 350px;
+    height: 125px;
     border:1px solid red;
  }
+
+ /* h3::before{
+    content: '';
+     border: 1px solid black;
+     width: 30px;
+     height: 30px;
+ } */
+
+/* .section-text{
+     padding-left: 70px;
+ }
+ .section-tex-second{
+    padding-left: 70px;
+ } */
+
+ .card-servise::before {
+    content: '';
+    display: block;
+    height: 32px;
+    width: 32px;
+    float: left;
+    margin: 5px 30px 30px 0px;
