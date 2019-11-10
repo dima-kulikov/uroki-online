@@ -38,7 +38,7 @@ footer{
     display: flex;
     flex-basis: 1200px;
     margin: 0 auto;
-    background-color: cornsilk;
+    /* background-color: cornsilk; */
 }
 
 .page-nav{
@@ -101,7 +101,7 @@ footer{
     flex-direction: column;
     width: 750px;
     /* height: 100px; */
-    background-color: violet;
+    /* background-color: violet; */
     justify-content: center;
     align-items: center;
     margin-top:100px;
@@ -132,27 +132,12 @@ footer{
 
 
 
-
-
-
- 
- /* СЕКЦИЯ С КАРТОЧКАМИ НА ФЛЕКСЕ */
- /* .section-conteiner{
-    display: flex;
-    flex-basis: 1200px;
-    border: 10px solid gold;
- } */
- 
+/*   СЕКЦИЯ КАРТОЧКИ */
  
  .section-cards-servise{
     display: flex;
     flex-basis: 1200px;
-    margin: 0 auto;
-    background-color: cornsilk;
-    /* border: 1px solid gold; */
-    /* align-content: flex-start; */
-   
-   
+    margin: 30px auto 0px auto;
  }
 
  .servis-cards-ul{
@@ -160,33 +145,30 @@ footer{
      flex-wrap: wrap;
      flex-basis: 1200px;
     list-style-type: none;
-   /* align-content: flex-start; */
+
    justify-content: space-between;
    margin: 0 auto;
+   padding:0; 
    
   
  }
 
  .card-servise{
-   
-    width: 350px;
-    height: 125px;
-    border:1px solid red;
+    width: 363px;
+    height: 80px;
+    margin-bottom: 80px;
  }
 
- /* h3::before{
-    content: '';
-     border: 1px solid black;
-     width: 30px;
-     height: 30px;
- } */
-
-/* .section-text{
-     padding-left: 70px;
+.section-text{
+    font-size: 14px;
+        font-family: "Montserrat";
+        text-transform: uppercase;
+        /* line-height: 1.2; */
  }
  .section-tex-second{
-    padding-left: 70px;
- } */
+    font-size: 15px;
+        font-family: "Roboto";
+ }
 
  .card-servise::before {
     content: '';
@@ -194,4 +176,64 @@ footer{
     height: 32px;
     width: 32px;
     float: left;
-    margin: 5px 30px 30px 0px;
+    margin: 15px 30px 30px 0px;
+ }
+
+ .img-alarm::before {
+    background-image: url(../img/icon/ALARM.png);
+ }
+ .img-line::before {
+    background-image: url(../img/icon/LINE.png);
+ }
+.img-computer::before {
+    background-image: url(../img/icon/COMPUTER.png);
+ }
+   
+.img-book::before {
+    background-image: url(../img/icon/BOOK.png);
+ } 
+
+
+ .img-home::before {
+    background-image: url(../img/icon/HOME.png);
+ }
+ 
+ .img-image::before {
+    background-image: url(../img/icon/IMAGE.png);
+ }
+ /*   СЕКЦИЯ КАРТОЧКИ -----  КОНЕЦ */
+
+   /* БЛОК ТЕКСТА СЕРЕДИНА -2 */
+.section-conteiner-two{
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    /* height: 100px; */
+    /* background-color: violet; */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.first-text-two{
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    color:#333333;
+
+}
+
+.second-text-two{
+    font-size: 30px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color:#333333;
+    text-transform: uppercase;
+}
+  
+.second-text-two::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #f38181;
+    width: 60px;
+    margin: 30px auto 0px;
+ }
