@@ -237,3 +237,65 @@ footer{
     width: 60px;
     margin: 30px auto 0px;
  }
+
+ /* ТЕКСТ ПОД НАША КОМАНДА*/
+
+ .teem-text{
+     width: 944px;
+    text-align: center;
+    margin:0 auto;
+    background-color: aqua;
+
+ }
+
+
+
+ /*ТРИ КАРТОЧКИ ТОВАРА*/
+
+ .our-team-block{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0; 
+    /* justify-content: space-between;
+    flex-wrap: wrap; */
+    background-color: turquoise;
+ }
+
+.our-team-ul{
+    display: flex;
+    flex-basis: 1200px;
+    /* margin: 0 auto;*/
+    padding:0;  
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+ .our-team-card{
+    width: 380px;
+    height: 550px;
+    background-color: navajowhite;
+    /* flex-wrap: wrap; */
+   list-style-type: none;
+
+ 
+ }
+
+.our-team-card__text-first{
+    font-size: 14px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.our-team-card__text-second{
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    text-align: center;
+}
+ 
+
+
+  
