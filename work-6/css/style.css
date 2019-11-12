@@ -297,5 +297,60 @@ footer{
 }
  
 
+/* Блок при наведении----overlay*/
+.overlay{
+    position: relative;
+  }
+  
+  .overlay__icon li{
+    display: inline-block; 
+   }
+   .overlay-icon-size{
+     display: block;
+      width: 56px;
+     height: 56px;
+     background-color: #fce38a;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: auto
+     cursor: pointer;
+     padding: 0px;
+     margin: 0px;
+     /* border: 1px solid red; */
+   }
+     .overlay-icon-size:hover{
+        background-color: #95e1d3;
+    
+   }  
+   .overlay__icon{
+   opacity:1;
+     list-style: none;
+      position: absolute;
+      padding: 0px;
 
+       left: 50%;
+       top: 50%;
+     transform: translate(-80%, -50%); 
+     
+   }
+   .our-team-card:hover .overlay__icon{
+     opacity:1 ;
+    transition: opacity 0.7s linear;
+   }
+
+   .icon-facebook{
+    background-image: url('/work-6/img/icon/facebook.png');
+  }
+
+  .icon-twitter{
+    background-image: url('/work-6/img/icon/twitter.png');
+  }
+
+  .icon-pinterest{
+    background-image: url('/work-6/img/icon/pinterest.png');
+  }
+
+  .icon-instagram{
+    background-image: url('/work-6/img/icon/instagram.png');
+  }
   
