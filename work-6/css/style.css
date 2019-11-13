@@ -299,11 +299,29 @@ footer{
 
 /* Блок при наведении----overlay*/
 .overlay{
+    content: '';
     position: relative;
-   
-    /* background-color: red; */
+    /* border: 1px solid red; */
+
   }
   
+
+
+ .our-team-card:hover .team-card-photo{
+    background-color: aqua;
+    /* background-image: url(./img/foto/foto-2.png); */
+     z-index: 1;
+    width: 380px;
+    height: 470px; }
+   
+    .team-card-photo{
+        width: 380px;
+        height: 470px;
+        border: 1px solid red;
+        content: '';
+        position: relative;
+    }
+
   .overlay:hover::after{
     
      content: '';
@@ -315,7 +333,7 @@ footer{
     background-image: -ms-linear-gradient( 90deg, rgb(252,227,138, 0.9) 0%, rgb(243,129,129, 0.9) 100%);
     width: 380px;
     height: 470px;
-
+    /* z-index: 0; */
   }
   
 
@@ -351,6 +369,7 @@ footer{
        left: 50%;
        top: 50%;
      transform: translate(-50%, -50%); 
+     z-index: 1;
      
    }
    .our-team-card:hover .overlay__icon{
@@ -378,7 +397,7 @@ footer{
 
   .img-color {
       background-image: url('/work-6/img/foto/foto-1.png');
-    /* background-color: blue; */
+    background-color: blue; 
     width: 380px;
     height: 470px;
   
@@ -396,12 +415,26 @@ footer{
   }
 
 
-  .our-team-card:hover {
+  /* .our-team-card:hover {
     transform: translate(-10px, -10px);
     box-shadow: 10px 10px 10px #95e1d3;
     transition: all 200ms linear;
 
-}
+} */
+
+
+.team-card-photo:hover{
+    /* content: '';
+    position: absolute;  */
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px 10px #95e1d3;
+    transition: all 200ms linear;
+
+    
+} 
+
+
+/*футер сайта*/
 
 .site-footer{
     display: flex;
