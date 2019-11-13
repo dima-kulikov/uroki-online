@@ -301,28 +301,44 @@ footer{
 .overlay{
     content: '';
     position: relative;
-    /* border: 1px solid red; */
-
+    
   }
   
 
 
  .our-team-card:hover .team-card-photo{
     background-color: aqua;
-    /* background-image: url(./img/foto/foto-2.png); */
      z-index: 1;
     width: 380px;
-    height: 470px; }
-   
-    .team-card-photo{
-        width: 380px;
-        height: 470px;
-        border: 1px solid red;
-        content: '';
-        position: relative;
-    }
+    height: 470px; 
+}
+.overlay:hover{  
+background-color: black;
+    z-index: 1;
+    content: '';
+     
+     list-style: none;
+      position: absolute;
+}
 
-  .overlay:hover::after{
+.img-overlay{
+    /* content: '';
+    position: absolute;  */
+    width: 100%;
+    height: 100%;
+    background-image: -moz-linear-gradient( 90deg, rgb(252,227,138, 0.9) 0%, rgb(243,129,129, 0.9) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138, 0.9) 0%, rgb(243,129,129, 0.9) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(252,227,138, 0.9) 0%, rgb(243,129,129, 0.9) 100%);
+    opacity: 0;
+}
+.img-overlay:hover{
+    opacity: 1;
+    content: '';
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+  /* .overlay:hover::after{
     
      content: '';
     position: absolute; 
@@ -333,8 +349,8 @@ footer{
     background-image: -ms-linear-gradient( 90deg, rgb(252,227,138, 0.9) 0%, rgb(243,129,129, 0.9) 100%);
     width: 380px;
     height: 470px;
-    /* z-index: 0; */
-  }
+    
+  } */
   
 
   .overlay__icon li {
@@ -349,19 +365,17 @@ footer{
      background-repeat: no-repeat;
      background-position: center;
      background-size: auto
-     cursor: pointer;
      padding: 0px;
      margin: 0px;
-     /* border: 1px solid red; */
    }
-     .overlay-icon-size:hover{
+    .overlay-icon-size:hover{
         background-color: #95e1d3;
-    
+        cursor: pointer;
    }  
+
    .overlay__icon{
-    content: '';
-   opacity:1;
-   
+     content: '';
+     opacity:0;
      list-style: none;
       position: absolute;
       padding: 0px;
@@ -370,9 +384,9 @@ footer{
        top: 50%;
      transform: translate(-50%, -50%); 
      z-index: 1;
-     
    }
-   .our-team-card:hover .overlay__icon{
+
+   .overlay:hover .overlay__icon{
      opacity:1 ;
     transition: opacity 0.5s linear;
     
@@ -381,56 +395,48 @@ footer{
    .icon-facebook{
     background-image: url('/work-6/img/icon/facebook.png');
   }
-
   .icon-twitter{
     background-image: url('/work-6/img/icon/twitter.png');
   }
-
   .icon-pinterest{
     background-image: url('/work-6/img/icon/pinterest.png');
   }
-
   .icon-instagram{
     background-image: url('/work-6/img/icon/instagram.png');
   }
   
 
-  .img-color {
-      background-image: url('/work-6/img/foto/foto-1.png');
-    background-color: blue; 
+  .img-size {
+    display: block;
     width: 380px;
     height: 470px;
-  
   }
 
-  .img-color:hover{
-    /* background-color: blue;  */
-    /* background-image: url('/work-6/img/foto/foto-1.png'); */
-    
-  }
-  .our-team-card:hover .img-color{
+.card-foto-1{
+    background-image: url('/work-6/img/foto/foto-1.png');
+}
+.card-foto-2{
+    background-image: url('/work-6/img/foto/foto-2.png');
+}
+.card-foto-3{
+    background-image: url('/work-6/img/foto/foto-3.png');
+}
+
+
+  .our-team-card:hover .img-size{
     opacity:1 ;
    transition: opacity 0.7s linear;
-   /* background-color: blue; */
   }
 
 
-  /* .our-team-card:hover {
-    transform: translate(-10px, -10px);
-    box-shadow: 10px 10px 10px #95e1d3;
-    transition: all 200ms linear;
-
-} */
 
 
-.team-card-photo:hover{
+.overlay:hover{
     /* content: '';
     position: absolute;  */
     transform: translate(-10px, -10px);
     box-shadow: 10px 10px 10px #95e1d3;
     transition: all 200ms linear;
-
-    
 } 
 
 
