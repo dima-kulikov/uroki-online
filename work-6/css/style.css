@@ -23,10 +23,7 @@ main{
     /* background-color: ivory; */
 }
 
-footer{
-    height: 50px; 
-    background-color: skyblue;
-}
+
 
 
 
@@ -99,7 +96,7 @@ footer{
 .section-conteiner{
     display: flex;
     flex-direction: column;
-    width: 750px;
+    width: 300px;
     /* height: 100px; */
     /* background-color: violet; */
     justify-content: center;
@@ -207,7 +204,7 @@ footer{
 .section-conteiner-two{
     display: flex;
     flex-direction: column;
-    width: 750px;
+    width: 300px;
     /* height: 100px; */
     /* background-color: violet; */
     justify-content: center;
@@ -244,7 +241,7 @@ footer{
      width: 944px;
     text-align: center;
     margin:0 auto;
-    background-color: aqua;
+    /* background-color: aqua; */
 
  }
 
@@ -287,6 +284,7 @@ footer{
     font-family: "Montserrat";
     text-transform: uppercase;
     text-align: center;
+    
 }
 
 .our-team-card__text-second{
@@ -311,6 +309,7 @@ footer{
      z-index: 1;
     width: 380px;
     height: 470px; 
+   
 }
 .overlay:hover{  
 background-color: black;
@@ -320,6 +319,9 @@ background-color: black;
      list-style: none;
       position: absolute;
 }
+
+
+
 
 .img-overlay{
     /* content: '';
@@ -331,13 +333,27 @@ background-color: black;
     background-image: -ms-linear-gradient( 90deg, rgb(252,227,138, 0.9) 0%, rgb(243,129,129, 0.9) 100%);
     opacity: 0;
 }
-.img-overlay:hover{
+
+.overlay:hover .img-overlay{
+
+    opacity: 1;
+}
+
+/* .overlay-icon-size:hover .img-overlay{
     opacity: 1;
     content: '';
     position: absolute; 
     top: 0;
     left: 0;
-}
+
+}  */
+/* .img-overlay:hover{
+    opacity: 1;
+    content: '';
+    position: absolute; 
+    top: 0;
+    left: 0;
+} */
   /* .overlay:hover::after{
     
      content: '';
@@ -378,6 +394,7 @@ background-color: black;
      opacity:0;
      list-style: none;
       position: absolute;
+
       padding: 0px;
       width: 236px; 
        left: 50%;
@@ -389,6 +406,7 @@ background-color: black;
    .overlay:hover .overlay__icon{
      opacity:1 ;
     transition: opacity 0.5s linear;
+    
     
    }
 
@@ -434,6 +452,7 @@ background-color: black;
 .overlay:hover{
     /* content: '';
     position: absolute;  */
+    
     transform: translate(-10px, -10px);
     box-shadow: 10px 10px 10px #95e1d3;
     transition: all 200ms linear;
@@ -446,6 +465,11 @@ background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 60px; 
+    border-top: 1px solid #e5e5e5;
+    margin-top: 80px;
+    max-width: 1200px;
+    margin: 80px auto 0px auto;
 }
 
 .site-rights{
@@ -455,5 +479,81 @@ background-color: black;
     color: rgb(51, 51, 51);
    
   }
-  
+  .site-rights a{
+    text-decoration: none;
+    color: #f38181;
+  }
+  .site-rights a:hover{
+    color: #95e1d3;
 
+  }
+
+
+  .box-email{
+    width: 234px;
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(231, 231, 231);
+    background-color: rgb(255, 255, 255);
+  }
+
+.btn-email{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(149, 225, 211);
+    font-size: 14px;
+    font-family: "Montserrat";
+    border: none;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-email:hover{
+    background-color: #f38181;
+    color:white;
+    /* border:2px solid rgb(149, 225, 211); */
+    
+    cursor: pointer; 
+}
+
+
+.btn-menu {
+    width: 60px;
+    height: 60px;
+    background-color: #1abc9c;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.nav-menu-mob {
+    float: right;
+    /* margin-top: 5px; */
+    margin-right: 25px;
+    display: none;
+}
+
+ /*РАЗМЕРНАЯ СЕТКА*/
+
+ @media (max-width: 1200px) { 
+    .our-team-ul{
+        justify-content: center;
+
+    }
+    .our-team-card{
+      margin: 10px;
+    }
+
+    .servis-cards-ul {
+        justify-content: center;
+ }
+
+ @media (max-width: 590px) { 
+    .nav-menu{
+       display: table;
+    }
+    .header-menu{
+       display: none;
+    }
+}
