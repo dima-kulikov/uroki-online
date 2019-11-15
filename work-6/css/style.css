@@ -411,16 +411,16 @@ background-color: black;
    }
 
    .icon-facebook{
-    background-image: url('/work-6/img/icon/facebook.png');
+    background-image: url('../img/icon/facebook.png');
   }
   .icon-twitter{
-    background-image: url('/work-6/img/icon/twitter.png');
+    background-image: url('../img/icon/twitter.png');
   }
   .icon-pinterest{
-    background-image: url('/work-6/img/icon/pinterest.png');
+    background-image: url('../img/icon/pinterest.png');
   }
   .icon-instagram{
-    background-image: url('/work-6/img/icon/instagram.png');
+    background-image: url('../img/icon/instagram.png');
   }
   
 
@@ -431,13 +431,13 @@ background-color: black;
   }
 
 .card-foto-1{
-    background-image: url('/work-6/img/foto/foto-1.png');
+    background-image: url('../img/foto/foto-1.png');
 }
 .card-foto-2{
-    background-image: url('/work-6/img/foto/foto-2.png');
+    background-image: url('../img/foto/foto-2.png');
 }
 .card-foto-3{
-    background-image: url('/work-6/img/foto/foto-3.png');
+    background-image: url('../img/foto/foto-3.png');
 }
 
 
