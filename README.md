@@ -14,3 +14,6 @@ https://dima-kulikov.github.io/uroki-online/work-5/work-5.html
 
 Урок 6
 https://dima-kulikov.github.io/uroki-online/work-6/work-6.html
+
+Урок 7
+https://dima-kulikov.github.io/uroki-online/work-7/work-7.html
