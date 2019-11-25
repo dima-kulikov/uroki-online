@@ -1,0 +1,68 @@
+.page-header{
+  
+    max-width: 940px;
+    height: 200px;
+    margin: 0 auto;
+/* background-color: #95e1d3; */
+
+}
+
+.conteiner{
+    display: flex;
+    flex-basis: 1200px;
+    margin: 0 auto;
+    /* background-color: cornsilk; */
+}
+
+.page-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90px;
+    
+}
+
+.site-logo{
+    /* border: 1px solid red; */
+    font-size: 30px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+        color: #fed136;
+        font-weight: bold;
+        text-decoration: none;
+
+}
+
+.header-menu{
+    display: flex;
+    list-style-type: none;
+    /* border: 1px solid gold; */
+    /* align-self: center; */
+    margin: 0;
+    padding: 0;  
+    flex-basis: 490px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.header-menu a{
+    text-decoration: none;
+    color: #303030;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-weight: bold;
+}
+
+.header-menu a:hover{
+    color:#fed136;
+    /* border-bottom: 3px solid #f38181; */
+    width: 164px;
+    margin: 30px auto 90px;
+    padding-bottom: 12px;
+}
+
+/* ХЕДЕР САЙТА------------------------КОНЕЦ */
+
+
+  
