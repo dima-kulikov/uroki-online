@@ -1,17 +1,18 @@
 .page-header{
   
     max-width: 940px;
-    height: 200px;
-    margin: 0 auto;
+    /* height: 200px; */
+    margin: 0 auto 100px;
 /* background-color: #95e1d3; */
 
 }
 
 .conteiner{
     display: flex;
-    flex-basis: 1200px;
+    flex-basis: 9400px;
     margin: 0 auto;
     /* background-color: cornsilk; */
+    outline:1px solid #fed136;
 }
 
 .page-nav{
@@ -64,5 +65,68 @@
 
 /* ХЕДЕР САЙТА------------------------КОНЕЦ */
 
-
+.services{
+    outline:1px solid #fed136;
+    max-width: 290px;
+    height: 90px;
+    margin:0 auto;
+}
   
+.services-text{
+    font-size: 40px;
+    /* font-family: "Montserrat"; */
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin:10px 0px;
+}
+.services-text-second{
+    font-size: 16px;
+    /* font-family: "DroidSerif"; */
+    color: rgb(119, 119, 119);
+    font-style: italic;
+    /* line-height: 1.2; */
+    text-align: center;
+    margin: 0px;
+}
+
+
+
+.Sub_Title {
+    font-size: 16px;
+    font-family: "DroidSerif";
+    color: rgb(119, 119, 119);
+    font-style: italic;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 547.937px;
+    top: 237.946px;
+    z-index: 41;
+  }
+  
+  /* ТРИ БЛОКА С КАРТИНКАМ */
+
+  .info-cart{
+      width: 940px;
+      margin: 40px auto;
+      outline:1px solid #fed136;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+  }
+.info-cart__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+  .info-cart__list__block{
+      width: 290px;
+      height: 220px; 
+      background-color: aliceblue;
+  }
