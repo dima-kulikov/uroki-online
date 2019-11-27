@@ -109,7 +109,7 @@
   /* ТРИ БЛОКА С КАРТИНКАМ */
 
   .info-cart{
-      width: 940px;
+      max-width: 940px;
       margin: 40px auto;
       outline:1px solid #fed136;
     /* display: flex;
@@ -118,15 +118,69 @@
   }
 .info-cart__list{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
     justify-content: space-between;
     list-style-type: none;
+    
     margin: 0;
     padding: 0;
 }
 
   .info-cart__list__block{
-      width: 290px;
+      flex-basis: 290px;
       height: 220px; 
       background-color: aliceblue;
   }
+.block{
+    width: 100%;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+.info-cart-img{
+      background-image: url(/work-7/img/icon/icon-1.png);
+  }
+.list-icon-center{
+   background-image: url(/work-7/img/icon/icon-2.png); 
+  }
+.info-cart-img-2{
+    background-image: url(/work-7/img/icon/icon-1.png);
+}
+.list-icon-center-2{
+ background-image: url(/work-7/img/icon/icon-3.png); 
+}
+.info-cart-img-3{
+    background-image: url(/work-7/img/icon/icon-1.png);
+}
+.list-icon-center-3{
+ background-image: url(/work-7/img/icon/icon-4.png); 
+}
+
+  .title-cart{
+    font-size: 18px;
+    /* font-family: "Montserrat"; */
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .desc-cart{
+    font-size: 14px;
+    font-family: "RobotoSlab";
+    color: rgb(119, 119, 119);
+    text-align: center;
+  }
+  
+.contact{
+  max-width: 940px;
+  margin: 40px auto;
+  
+}
+
+.contact-us{
+    outline:1px solid #fed136;
+    max-width: 290px;
+    height: 90px;
+    margin:0 auto;
+}
