@@ -204,7 +204,9 @@ height: 1000px;
 }
 
 
+
 .send-form{
+    display: flex;
     max-width: 940px;
     height: 340px;
     outline: 1px solid #fed136;
@@ -212,10 +214,26 @@ height: 1000px;
 }
 
 .input-block{
-    width: 455px;
-    height: 55px;
+    display: flex;
+    width: 530px;
+    /* height: 340px; */
+   flex-direction: column;
+}
+
+.recording-line{
+    /* flex-direction: column; */
+    max-width: 455px;
+    height: 50px;
     margin-top: 30px;
+   
 }
 .textarea-class{
+  
     resize: none;
+    max-width: 455px;
+    height: 220px;
+    margin-top: 30px;
+}
+.textarea{
+    max-width: 455px;
 }
