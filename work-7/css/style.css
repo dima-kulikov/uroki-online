@@ -265,7 +265,7 @@ display: flex;
     display: block;
 }
 
-.recording-line:valid{
+/* .recording-line:valid{
 outline: 2px solid green;
 
 }
@@ -274,18 +274,14 @@ outline: 2px solid green;
     outline: 2px solid red;  
 }
 
-.textarea-class:valid{
-    outline: 2px solid green;
-        
-}
-.textarea-class:focus {
-    outline: 2px solid red;  
-}
+.recording-line
 
-.textarea-class:valid {
-    outline: 2px solid green;  
-}
+.recording-line:invalid{
+    outline: 2px solid blue;  
+} */
 
-.textarea-class:invalid{
-    outline: 2px solid red;  
-}
+
+.input-block input:required:focus:valid,
+.textarea textarea:required:focus:valid {
+    outline: 2px solid rgb(23, 145, 23);
+    transition: all 200ms cubic-bezier(.17, .67, .83, .67);
