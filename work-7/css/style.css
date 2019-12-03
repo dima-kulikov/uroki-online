@@ -265,23 +265,20 @@ display: flex;
     display: block;
 }
 
-/* .recording-line:valid{
+.input-block input:valid{
 outline: 2px solid green;
-
 }
   
-.recording-line:focus {
+/* .recording-line:focus {
+    outline: 2px solid red;  
+} */
+.recording-line input:invalid{
     outline: 2px solid red;  
 }
 
-.recording-line
-
-.recording-line:invalid{
-    outline: 2px solid blue;  
-} */
 
 
-.recording-line:required:focus:valid,
+/* .input-block input:required:focus:valid,
 .textarea textarea:required:focus:valid {
     outline: 2px solid rgb(23, 145, 23);
-    transition: all 200ms cubic-bezier(.17, .67, .83, .67);
+    transition: all 200ms cubic-bezier(.17, .67, .83, .67);} */
