@@ -281,7 +281,7 @@ outline: 2px solid green;
 } */
 
 
-.input-block input:required:focus:valid,
+.recording-line:required:focus:valid,
 .textarea textarea:required:focus:valid {
     outline: 2px solid rgb(23, 145, 23);
     transition: all 200ms cubic-bezier(.17, .67, .83, .67);
