@@ -178,7 +178,7 @@ height: 1000px;
     max-width: 290px;
     height: 90px;
     margin:0px auto;
-    /* padding-top: 100px; */
+    padding: 60px;
 }
 .contact-text{
     font-size: 40px;
@@ -189,6 +189,10 @@ height: 1000px;
     text-transform: uppercase;
     text-align: center;
     margin:10px 0px;
+
+   
+  
+  
 }
 .contact-text-second{
     font-size: 16px;
@@ -265,20 +269,67 @@ display: flex;
     display: block;
 }
 
-.input-block input:valid{
+.input-block input:focus:valid{
 outline: 2px solid green;
 }
   
-/* .recording-line:focus {
-    outline: 2px solid red;  
-} */
-.recording-line input:invalid{
+ /* .input-block input:focus {
+    outline: 2px solid blue;  
+}  */
+.input-block input:focus:invalid{
     outline: 2px solid red;  
 }
+/* .input-block input:required {
+    outline: 2px solid gold;  
+} */
 
+.textarea textarea:focus:valid{
+    outline: 2px solid green;
+    }
+.textarea textarea:focus:invalid{
+    outline: 2px solid red;  
+    }
 
+/* МЕНЮ ДЛЯ МОБИЛКИ */
+    .btn-menu {
+        width: 60px;
+        height: 60px;
+        background-color: #95e1d3;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: 14px;
+        font-family: "Montserrat";
+        font-weight: bold;
+    }
 
+    .btn-menu:hover{
+        background-color: white;
+        color:#95e1d3;
+        border: 2px solid #95e1d3;
+    }
+    
+    .nav-menu-mob {
+        margin-right: 25px;
+        display: none;
+        margin-top: 10px;
+    }
 /* .input-block input:required:focus:valid,
 .textarea textarea:required:focus:valid {
     outline: 2px solid rgb(23, 145, 23);
     transition: all 200ms cubic-bezier(.17, .67, .83, .67);} */
+
+
+
+    @media (max-width: 1200px) {}
+
+
+    @media (max-width: 650px) { 
+        .nav-menu-mob{
+           display: table;
+        }
+        .header-menu{
+           display: none;
+        }
+
+    
