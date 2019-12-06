@@ -66,7 +66,7 @@
     /* outline:1px solid #fed136; */
     max-width: 290px;
     height: 90px;
-    margin:0 auto;
+    margin:80px auto;
 }  
 .services-text{
     font-size: 40px;
@@ -158,10 +158,11 @@
      
 background-color: #222222;
 background-image: url(/work-7/img/icon/map.png);
+background-position: right top 150px;
 background-repeat: no-repeat;
-background-position: right;
+
 width: 100%;
-height: 1000px;
+height: 688px;
 
 
   }
@@ -215,8 +216,8 @@ height: 1000px;
     display: flex;
     /* flex-direction: row; */
     max-width: 940px;
-    height: 440px;
-    outline: 1px solid #fed136;
+    /* height: 440px; */
+    /* outline: 1px solid #fed136; */
     margin:50px auto;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -352,24 +353,33 @@ outline: 2px solid green;
      height:100px;
     }
 
+   
+
     .send-message{
    
             flex-direction: row;
 }
 
+.nav-menu-mob{
+    display: table;
+ }
+ .header-menu{
+    display: none;
+ }
 
-
-
+ .black-block {
+    
+    height: 100%;
 
 
 }
 
-    @media (max-width: 650px) { 
+    /* @media (max-width: 650px) { 
         .nav-menu-mob{
            display: table;
         }
         .header-menu{
            display: none;
-        }
+        } */
 
     
