@@ -257,7 +257,7 @@ display: flex;
 
 .send-message{
 text-transform: uppercase;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     margin: 30px auto;
     border:none;
