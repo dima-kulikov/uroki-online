@@ -351,6 +351,10 @@ outline: 2px solid green;
     .textarea-class{
      height:100px;
     }
+
+    .send-message{
+   
+            flex-direction: row;
 }
 
 
