@@ -17,7 +17,7 @@ header{
     margin: 0px auto;
     /* border: 1px solid red; */
 }
-main{
+.main{
     /* align-items: stretch; */
     /* flex-grow:1; */
     /* background-color: ivory; */
@@ -238,7 +238,7 @@ main{
  /* ТЕКСТ ПОД НАША КОМАНДА*/
 
  .teem-text{
-     width: 944px;
+     max-width: 944px;
     text-align: center;
     margin:0 auto;
     /* background-color: aqua; */
