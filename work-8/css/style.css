@@ -1,0 +1,64 @@
+
+  .header{
+      width: 320px;
+      height: 540px;
+      background-image: url(../img/foto-first.png);
+      margin: 0 auto;
+  }
+
+  .header_button{
+      /* outline: 1px solid red; */
+     width: 200px;
+     margin: 0px auto;
+     padding-top: 20px;
+
+  }
+
+  .header_button-size{
+    display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    width: 94px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 3;
+    text-align: center;
+  }
+
+  .header-text{
+      width: 300px;
+      margin: 110px auto 20px auto;
+  }
+
+ 
+  .header-text__first {
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+  }
+  .header-text__title{
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    /* line-height: 1.2; */
+    text-align: center;
+  }
+  .header-text__second{
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    /* line-height: 1.2; */
+    text-align: center;
+  }
+  
+
+  
