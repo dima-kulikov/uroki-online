@@ -1,9 +1,16 @@
 
+  block__size{
+    width: 320px;
+  }
+  
   .header{
-      width: 320px;
+      
       height: 540px;
       background-image: url(../img/foto-first.png);
+      background-repeat: no-repeat;
+      background-size: cover;
       margin: 0 auto;
+    
   }
 
   .header_button{
@@ -53,12 +60,106 @@
     text-align: center;
   }
   .header-text__second{
+    width: 250px;
     font-size: 18px;
     font-family: "Roboto";
     color: rgb(255, 255, 255);
     /* line-height: 1.2; */
     text-align: center;
+    font-weight: lighter;
+ margin: 0px auto;
+  }
+  
+  .btn-partner {
+    border-radius: 20px;
+    background-color: rgb(255, 78, 80);
+    width: 280px;
+    height: 40px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center; 
+    border: none;
+    padding: 0;
+    margin: 0px auto;
   }
   
 
-  
+  .partner__card-title {
+    font-size: 22px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+  margin-top: 70px;
+  }
+
+.partner {
+  list-style-type: none;
+}
+  /* КАРТОЧКИ ПАРТНЕРОВ */
+  .partner__card-block{
+    width: 200px;
+    height: 210px;
+    outline: 1px solid gold;
+  }
+.partner__card-block-img{
+  position: relative;
+  width: 120px;
+  height: 120px;
+  background-image: url(../img/foto-first.png);
+  outline: 1px solid gold;
+  border-radius: 50%;
+  margin: 0px auto;
+}
+.partner__card-block-img-icon{
+/* position: relative; */
+position: absolute;
+outline: 1px solid red;
+width: 35px;
+height: 35px;
+/* top: 80px;
+left:80px; */
+bottom: 0;
+right: 0;
+
+}
+
+.icon{
+
+  background-image: url(../img/icon/icon-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: red;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.icon::after{
+  background-image: url(../img/icon/icon-2.png);
+}
+.icon-center{
+  bottom: 0;
+  right: 0;
+}
+
+.partner__card-block-name{
+
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.partner__card-block-description {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgb(102, 102, 102);
+  line-height: 1.2;
+  text-align: center;
+ 
+}
