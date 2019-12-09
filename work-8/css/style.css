@@ -6,11 +6,17 @@
   .header{
       
       height: 540px;
-      background-image: url(../img/foto-first.png);
+      /* background-image: url(../img/foto-first.png); */
       background-repeat: no-repeat;
       background-size: cover;
       margin: 0 auto;
     
+
+      background-image: url(../img/foto-first-2.png);
+      background-color: rgb(26, 25, 21);
+    
+      background-position: center;
+      width: 100%;
   }
 
   .header_button{
@@ -277,6 +283,57 @@ border: 4px solid white;
 .btn-partner {
   width: 226px;
 }
+.btn-other-partner{
+  width: 193px;
+  height: 40px;
+}
+}
+@media (min-width: 1024px){
+
+.header_button{
+  width: 942px;  
+}
+.partner{
+  width: 942px;
+}
+.header_button-size:hover{
+cursor: pointer;
+color: white;
+background-color: rgb(255, 78, 80);
+transition: .4s linear;
+}
+.btn-partner:hover{
+  cursor: pointer;
+  /* border: 2px solid rgb(255, 78, 80); */
+  background-color: white;
+  color: rgb(255, 78, 80);
+  /* background: none; */
+  transition: .4s linear;
+}
+.btn-other-partner:hover{
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: rgb(255, 78, 80);
+  transition: .4s linear;
+}
+.partner__card-block:hover{
+  cursor: pointer;
+  transition: .4s linear;
+  box-shadow: 0 0 0 1px white, 0 0 0 3px rgb(255, 78, 80);
+  border-radius: 50px;
+  background-color: rgb(255, 245, 245);
+}
+.header{
+      
+  height: 700px;
+ 
+}
+}
+
+.Rectangle_1 {
+  background-color: rgb(26, 25, 21);
+
 }
 
 
