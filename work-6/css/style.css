@@ -332,7 +332,7 @@ background-color: black;
     content: '';
      
      list-style: none;
-      position: absolute;
+
 }
 
 
@@ -411,7 +411,7 @@ background-color: black;
       position: absolute;
 
       padding: 0px;
-      width: 236px; 
+      min-width: 236px; 
        left: 50%;
        top: 50%;
      transform: translate(-50%, -50%); 
