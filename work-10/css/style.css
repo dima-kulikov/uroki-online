@@ -433,16 +433,6 @@ background-color: black;
 
 
 
-/* .card-foto-1{
-    background-image: url('../img/foto/foto-1.png');
-} */
-.card-foto-2{
-    background-image: url('../img/foto/foto-2.png');
-}
-.card-foto-3{
-    background-image: url('../img/foto/foto-3.png');
-}
-
 
   .our-team-card:hover .img-size{
     opacity:1 ;
