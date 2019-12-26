@@ -17,11 +17,11 @@ header{
     margin: 0px auto;
     /* border: 1px solid red; */
 }
-.main{
+/* .main{ */
     /* align-items: stretch; */
     /* flex-grow:1; */
     /* background-color: ivory; */
-}
+/* } */
 
 
 
@@ -170,6 +170,7 @@ header{
  .card-servise::before {
     content: '';
     display: block;
+    background-size: cover;
     height: 32px;
     width: 32px;
     float: left;
@@ -392,18 +393,7 @@ background-color: black;
     
    }
 
-   .icon-facebook{
-    background-image: url('../img/icon/facebook.png');
-  }
-  .icon-twitter{
-    background-image: url('../img/icon/twitter.png');
-  }
-  .icon-pinterest{
-    background-image: url('../img/icon/pinterest.png');
-  }
-  .icon-instagram{
-    background-image: url('../img/icon/instagram.png');
-  }
+  s */
   
 
   .img-size {
@@ -563,22 +553,22 @@ background-color: black;
 
 @media (min-resolution: 192dpi), (min-resolution: 192dppx){
     .img-alarm::before {
-        background-image: url(../img/icon/ALARM.png);
+        background-image: url(../img/icon/ALARM@2x.png);
      }
      .img-line::before {
-        background-image: url(../img/icon/LINE.png);
+        background-image: url(../img/icon/LINE@2x.png);
      }
     .img-computer::before {
-        background-image: url(../img/icon/COMPUTER.png);
+        background-image: url(../img/icon/COMPUTER@2x.png);
      }
     .img-book::before {
-        background-image: url(../img/icon/BOOK.png);
+        background-image: url(../img/icon/BOOK@2x.png);
      } 
      .img-home::before {
-        background-image: url(../img/icon/HOME.png);
+        background-image: url(../img/icon/HOME@2x.png);
      }
      .img-image::before {
-        background-image: url(../img/icon/IMAGE.png);
+        background-image: url(../img/icon/IMAGE@2x.png);
      }
 
 
