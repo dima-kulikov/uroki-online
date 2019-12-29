@@ -334,16 +334,7 @@ background-color: black;
 
 
 
-/* .img-overlay{
-    content: '';
-    position: absolute; 
-    width: 100%;
-    height: 100%;
-    background-image: -moz-linear-gradient( 90deg, rgb(252,227,138, 0.9) 0%, rgb(243,129,129, 0.9) 100%);
-    background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138, 0.9) 0%, rgb(243,129,129, 0.9) 100%);
-    background-image: -ms-linear-gradient( 90deg, rgb(252,227,138, 0.9) 0%, rgb(243,129,129, 0.9) 100%);
-    opacity: 0;
-} */
+
 
 .overlay:hover .img-overlay{
 
@@ -358,12 +349,12 @@ background-color: black;
    }
    .overlay-icon-size{
      display: block;
-      width: 56px;
-     height: 56px;
-     background-color: #fce38a;
+      /* width: 56px;
+     height: 56px; */
+     /* background-color: #fce38a;
      background-repeat: no-repeat;
      background-position: center;
-     background-size: auto;
+     background-size: auto; */
      pading: 0 px;
      margin: 0 px;
    }
@@ -372,6 +363,7 @@ background-color: black;
         cursor: pointer;
    }  
 
+
    .overlay__icon{
      content: '';
      opacity:0;
@@ -379,7 +371,7 @@ background-color: black;
       position: absolute;
 
       padding: 0px;
-      min-width: 236px; 
+      min-width: 240px; 
        left: 50%;
        top: 50%;
      transform: translate(-50%, -50%); 
@@ -389,11 +381,37 @@ background-color: black;
    .overlay:hover .overlay__icon{
      opacity:1 ;
     transition: opacity 0.5s linear;
-    
-    
    }
 
-  s */
+.overlay__icon__a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+   height: 56px; 
+    background-color: #fce38a;
+   padding: 0 px;
+   margin: 0 px;
+}
+
+.overlay__icon__a:hover{
+    background-color: #f38181;
+
+}
+
+.overlay__icon svg{
+    display: block;
+    width: 25px;
+    height: 25px;
+    fill:#f38181;
+}
+.overlay__icon:hover svg{
+    fill:#ffffff;
+}
+.overlay__icon svg:hover{
+    fill:#ffffff;
+}
+
   
 
   .img-size {
@@ -411,8 +429,6 @@ background-color: black;
      height: 470px;
      top: 0;
      left: 0;
-     /* width: 100%;
-     height: 100%; */
      background-image: -moz-linear-gradient( 90deg, rgb(252,227,138, 0.9) 0%, rgb(243,129,129, 0.9) 100%);
      background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138, 0.9) 0%, rgb(243,129,129, 0.9) 100%);
      background-image: -ms-linear-gradient( 90deg, rgb(252,227,138, 0.9) 0%, rgb(243,129,129, 0.9) 100%);
