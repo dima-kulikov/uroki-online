@@ -566,6 +566,27 @@ background-color: black;
     }
 }
 
+@media (max-width: 650px) { 
+    .our-team-card{
+        width: 300px;
+        height: auto;
+    }  
+    .img-size{
+        width: 300px; 
+        /* height: auto;  */
+    }
+    .img-size img{
+        width: 100%;
+        height: auto;
+    }
+    .overlay:hover::after{
+        width: 300px;
+        height: auto;
+    }
+
+}
+
+
 
 @media (min-resolution: 192dpi), (min-resolution: 192dppx){
     .img-alarm::before {
