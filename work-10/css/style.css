@@ -123,7 +123,7 @@ header{
     content: '';
     display: block;
     border-bottom: 3px solid #f38181;
-    width: 60px;
+    max-width: 60px;
     margin: 30px auto 0px;
  }
 
@@ -151,7 +151,7 @@ header{
  }
 
  .card-servise{
-    width: 363px;
+    max-width: 363px;
     height: 80px;
     margin-bottom: 80px;
  }
@@ -202,7 +202,7 @@ header{
 .section-conteiner-two{
     display: flex;
     flex-direction: column;
-    width: 300px;
+    max-width: 300px;
     /* height: 100px; */
     /* background-color: violet; */
     justify-content: center;
@@ -318,7 +318,7 @@ header{
  .our-team-card:hover .team-card-photo{
     background-color: aqua;
      z-index: 1;
-    width: 380px;
+    max-width: 380px;
     height: 470px; 
    
 }
@@ -405,18 +405,18 @@ background-color: black;
     height: 25px;
     fill:#f38181;
 }
-.overlay__icon:hover svg{
+.overlay__icon__a:hover svg{
     fill:#ffffff;
 }
-.overlay__icon svg:hover{
+/* .overlay__icon svg:hover{
     fill:#ffffff;
-}
+} */
 
   
 
   .img-size {
     /* display: block; */
-    width: 380px;
+    max-width: 380px;
     height: 470px;
     position: relative;
   }
