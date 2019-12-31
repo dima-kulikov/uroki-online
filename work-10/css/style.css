@@ -282,8 +282,6 @@ header{
     font-family: "Montserrat";
     text-transform: uppercase;
     text-align: center;
-   
-    /* s */
     bottom:0; 
     margin: auto;
     /* margin-left: 50%; */
@@ -310,6 +308,7 @@ header{
 .overlay{
     content: '';
     position: relative;
+    /* height: 495px; */
     
   }
   
@@ -417,7 +416,7 @@ background-color: black;
   .img-size {
     /* display: block; */
     max-width: 380px;
-    height: 371px;
+    /* height: 371px; */
     position: relative;
   }
 
@@ -594,6 +593,7 @@ background-color: black;
     main{
       margin: 0 5px;
   }
+
 }
 
 
@@ -617,6 +617,4 @@ background-color: black;
      .img-image::before {
         background-image: url(../img/icon/IMAGE@2x.png);
      }
-
-
 }
