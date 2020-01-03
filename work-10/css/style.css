@@ -37,7 +37,7 @@ header{
     
 }
 
-/* .page-header::after {
+.page-header::after {
      top: 0;
      left: 0; 
      content: '';
@@ -49,7 +49,7 @@ header{
      background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138, 0.9) 0%, rgb(243,129,129, 0.9) 100%);
      background-image: -ms-linear-gradient( 90deg, rgb(252,227,138, 0.9) 0%, rgb(243,129,129, 0.9) 100%);
     z-index: 0;
- } */
+ }
 
 
 
@@ -157,7 +157,7 @@ header{
     font-weight: bold;
     color: white;
     cursor: pointer;
-    /* z-index: 2; */
+    z-index: 2;
     padding: 0;
     background-color: transparent;
 }
@@ -606,6 +606,7 @@ background-color: black;
     font-size: 14px;
     font-family: "Montserrat";
     font-weight: bold;
+    z-index: 2;
 }
 .btn-menu:hover{
     background-color: #fce38a;;
@@ -618,6 +619,7 @@ background-color: black;
     margin-right: 25px;
     display: none;
     margin-top: 10px;
+   
 }
 
 
@@ -640,7 +642,7 @@ background-color: black;
     .nav-menu-mob{
 
        display: flex;
-       z-index: 2;
+     
     }
 
 
