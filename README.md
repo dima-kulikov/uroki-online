@@ -27,4 +27,7 @@ https://dima-kulikov.github.io/uroki-online/work-9/work-9.html
 
 Урок 10
 https://dima-kulikov.github.io/uroki-online/work-10/work-10.html
-(BEM/SVG)
+(SVG/img под ретину)
+
+Урок 11
+https://dima-kulikov.github.io/uroki-online/work-11/work-11.html
