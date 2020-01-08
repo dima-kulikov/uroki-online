@@ -1,0 +1,155 @@
+/*ТРИ КАРТОЧКИ ТОВАРА*/
+
+.our-team-block{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0; 
+ }
+
+.our-team-ul{
+    display: flex;
+    flex-basis: 1200px;
+    padding:0;  
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ .our-team-card{
+    max-width: 380px;
+    height: 550px;
+   list-style-type: none;
+   position:relative;
+ }
+
+.our-team-card__text-first{
+    font-size: 14px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    text-align: center;
+    bottom:0; 
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.our-team-card__text-second{
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    text-align: center;
+    bottom:0; 
+    margin: auto;  
+}
+
+
+/* Блок при наведении----overlay*/
+.overlay{
+    content: '';
+    position: relative; 
+  }
+  
+ .our-team-card:hover .team-card-photo{
+    background-color: aqua;
+     z-index: 1;
+    max-width: 380px;
+    height: 470px; 
+}
+.overlay:hover{  
+background-color: black;
+   height: 470px;
+    content: '';
+     list-style: none;
+} 
+
+.overlay__icon li {
+    display: inline-block;
+}
+.overlay-icon-size{
+     display: block;
+     padding: 0 px;
+     margin: 0 px;
+   }
+.overlay-icon-size:hover{
+        background-color: #95e1d3;
+        cursor: pointer;
+}  
+
+.overlay__icon{
+     content: '';
+     opacity:0;
+     list-style: none;
+      position: absolute;
+      padding: 0px;
+      min-width: 240px; 
+       left: 50%;
+       top: 50%;
+     transform: translate(-50%, -50%); 
+     z-index: 1;
+   }
+
+   .overlay:hover .overlay__icon{
+     opacity:1 ;
+    transition: opacity 0.5s linear;
+   }
+
+.overlay__icon__a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+   height: 56px; 
+    background-color: #fce38a;
+   padding: 0 px;
+   margin: 0 px;
+}
+
+.overlay__icon__a:hover{
+    background-color: #f38181;
+}
+
+.overlay__icon svg{
+    display: block;
+    width: 25px;
+    height: 25px;
+    fill:#f38181;
+}
+.overlay__icon__a:hover svg{
+    fill:#ffffff;
+}
+
+.img-size {
+    max-width: 380px;
+    position: relative;
+}
+
+.overlay:hover::after {
+    content: '';
+     position: absolute; 
+     display: block;
+     width: 380px;
+     height: 470px;
+     top: 0;
+     left: 0;
+     background-image: -moz-linear-gradient( 90deg, rgb(252,227,138, 0.9) 0%, rgb(243,129,129, 0.9) 100%);
+     background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138, 0.9) 0%, rgb(243,129,129, 0.9) 100%);
+     background-image: -ms-linear-gradient( 90deg, rgb(252,227,138, 0.9) 0%, rgb(243,129,129, 0.9) 100%);
+     opacity: 1;   
+ }
+
+.our-team-card:hover .img-size{
+    opacity:1 ;
+   transition: opacity 0.7s linear;
+}
+
+.overlay:hover{
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px 10px #95e1d3;
+    transition: all 200ms linear;
+} 
+
+.picture {
+    background-image: -moz-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+    z-index: 3;}

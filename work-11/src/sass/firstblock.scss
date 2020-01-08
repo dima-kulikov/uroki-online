@@ -1,0 +1,30 @@
+   /* БЛОК ТЕКСТА СЕРЕДИНА */
+   .section-conteiner{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+}
+
+.first-text{
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    color:#333333;
+}
+
+.second-text{
+    font-size: 30px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color:#333333;
+    text-transform: uppercase;
+}
+  
+.second-text::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #f38181;
+    max-width: 60px;
+    margin: 30px auto 0px;
+ }

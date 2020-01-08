@@ -1,0 +1,68 @@
+/*   СЕКЦИЯ КАРТОЧКИ */
+ 
+.section-cards-servise{
+    display: flex;
+    flex-basis: 1200px;
+    margin: 30px auto 0px auto;
+ }
+
+ .servis-cards-ul{
+     display: flex;
+     flex-wrap: wrap;
+     flex-basis: 1200px;
+    list-style-type: none;
+
+   justify-content: space-between;
+   margin: 0 auto;
+   padding:0; 
+   
+  
+ }
+
+ .card-servise{
+    max-width: 363px;
+    height: 80px;
+    margin-bottom: 80px;
+ }
+
+.section-text{
+    font-size: 14px;
+        font-family: "Montserrat";
+        text-transform: uppercase;
+        /* line-height: 1.2; */
+ }
+ .section-tex-second{
+    font-size: 15px;
+        font-family: "Roboto";
+ }
+
+ .card-servise::before {
+    content: '';
+    display: block;
+    background-size: cover;
+    height: 32px;
+    width: 32px;
+    float: left;
+    margin: 15px 30px 30px 0px;
+ }
+
+ .img-alarm::before {
+    background-image: url(../img/icon/ALARM.png);
+ }
+ .img-line::before {
+    background-image: url(../img/icon/LINE.png);
+ }
+.img-computer::before {
+    background-image: url(../img/icon/COMPUTER.png);
+ }
+.img-book::before {
+    background-image: url(../img/icon/BOOK.png);
+ } 
+ .img-home::before {
+    background-image: url(../img/icon/HOME.png);
+ }
+ .img-image::before {
+    background-image: url(../img/icon/IMAGE.png);
+ }
+ 
+ /*   СЕКЦИЯ КАРТОЧКИ -----  КОНЕЦ */

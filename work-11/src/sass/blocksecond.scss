@@ -1,0 +1,40 @@
+/* БЛОК ТЕКСТА СЕРЕДИНА -2 */
+.section-conteiner-two{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.first-text-two{
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    color:#333333;
+}
+
+.second-text-two{
+    font-size: 30px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color:#333333;
+    text-transform: uppercase;
+}
+  
+.second-text-two::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #f38181;
+    width: 60px;
+    margin: 30px auto 0px;
+ }
+
+
+ 
+ /* ТЕКСТ ПОД НАША КОМАНДА*/
+
+ .teem-text{
+    max-width: 944px;
+   text-align: center;
+   margin:0 auto;
+}

@@ -1,0 +1,85 @@
+/*РАЗМЕРНАЯ СЕТКА*/
+
+@media (max-width: 1200px) { 
+.our-team-ul{
+        justify-content: center;
+}
+.our-team-card{
+      margin: 10px;
+}
+
+.servis-cards-ul {
+        justify-content: center;
+}
+
+ @media (max-width: 650px) { 
+.nav-menu-mob{
+       display: flex;
+    }
+
+
+    .header-menu{
+       display: none;
+    }
+
+    .overlay:hover::after{
+        width: 300px;
+        height: 371px;
+        /* z-index: 1; */
+    }
+    .overlay:hover{
+        height: 371px;
+    }
+    .our-team-card{
+        width: 300px;
+        height: auto;
+    }  
+    .img-size{
+        width: 300px; 
+        height: auto;
+    }
+    .img-size img{
+        width: 100%;
+        height: auto;
+    }
+.site-logo{
+    margin-left: 25px;
+}
+
+    main{
+      margin: 0 5px;
+  }
+  .welcom__first {
+    font-size: 36px;
+  }
+  
+.welcom__second{
+    font-size: 50px;
+}
+.conteiner{
+    margin: 0px;
+}
+}
+
+
+
+@media (min-resolution: 192dpi), (min-resolution: 192dppx){
+    .img-alarm::before {
+        background-image: url(../img/icon/ALARM@2x.png);
+     }
+     .img-line::before {
+        background-image: url(../img/icon/LINE@2x.png);
+     }
+    .img-computer::before {
+        background-image: url(../img/icon/COMPUTER@2x.png);
+     }
+    .img-book::before {
+        background-image: url(../img/icon/BOOK@2x.png);
+     } 
+     .img-home::before {
+        background-image: url(../img/icon/HOME@2x.png);
+     }
+     .img-image::before {
+        background-image: url(../img/icon/IMAGE@2x.png);
+     }
+}
