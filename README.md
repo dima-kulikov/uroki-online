@@ -30,5 +30,5 @@ https://dima-kulikov.github.io/uroki-online/work-10/work-10.html
 (SVG/img под ретину)
 
 Урок 11
-https://dima-kulikov.github.io/uroki-online/work-11/build/index.html
+https://dima-kulikov.github.io/uroki-online/work-11/src/index.html
 (Gulp)
